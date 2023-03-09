@@ -29,7 +29,7 @@ cls && echo A obter ficheiros do p16db, a extrair e eliminar o zip
 cd ..\p16dbg
 curl https://github.com/ang3lo-azevedo/P16-toolchain-installer/blob/main/files/p16dbg.zip?raw=true -JLo p16dbg.zip && tar -xf p16dbg.zip && del p16dbg.zip
 
-cls &6 echo A obter ficheiros do p16sim, a extrair e eliminar o zip
+cls && echo A obter ficheiros do p16sim, a extrair e eliminar o zip
 cd ..\p16sim
 curl https://github.com/ang3lo-azevedo/P16-toolchain-installer/blob/main/files/p16sim.zip?raw=true -JLo p16sim.zip && tar -xf p16sim.zip && del p16sim.zip
 
