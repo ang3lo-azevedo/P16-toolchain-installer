@@ -1,8 +1,8 @@
 cd %USERPROFILE%\AppData\Roaming
 mkdir P16
 cd P16
-curl https://aka.ms/vs/17/release/vc_redist.x86.exe -JLO && vc_redist.x86.exe updateall -q && del vc_redist.x86.exe
-curl https://go.microsoft.com/fwlink/?LinkId=2085155 -JLo ndp48-web.exe && ndp48-web.exe updateall -q && del ndp48-web.exe
+curl https://aka.ms/vs/17/release/vc_redist.x86.exe -JLO && vc_redist.x86.exe -q /norestart && del vc_redist.x86.exe
+curl https://go.microsoft.com/fwlink/?LinkId=2085155 -JLo ndp48-web.exe && ndp48-web.exe -q /norestart && del ndp48-web.exe
 mkdir p16as
 mkdir p16dbg
 mkdir p16sim
