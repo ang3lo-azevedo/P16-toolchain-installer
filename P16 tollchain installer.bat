@@ -36,3 +36,4 @@ curl https://github.com/ang3lo-azevedo/P16-toolchain-installer/blob/main/files/p
 
 echo A adicionar os caminhos à variável de ambiente PATH && echo.
 setx PATH "%USERPROFILE%\AppData\Roaming\P16\p16as;%USERPROFILE%\AppData\Roaming\P16\p16sim;%PATH%"
+
