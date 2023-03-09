@@ -1,6 +1,12 @@
 cd %USERPROFILE%\AppData\Roaming
 mkdir P16
 cd P16
+curl https://aka.ms/vs/17/release/vc_redist.x86.exe -JLO
+vc_redist.x86.exe updateall -q
+del vc_redist.x86.exe
+curl https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer -JLO
+ndp48-web.exe updateall -q
+del ndp48-web.exe
 mkdir p16as
 mkdir p16dbg
 mkdir p16sim
