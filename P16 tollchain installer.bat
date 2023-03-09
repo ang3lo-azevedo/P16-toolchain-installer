@@ -6,12 +6,10 @@ echo A criar pasta P16
 mkdir P16
 cd P16
 
-cls 
-echo. 
-echo A instalar Microsoft Visual C++ Redistributable para Visual Studio 2019
+cls && echo. && echo A transferir e instalar Microsoft Visual C++ Redistributable para Visual Studio 2019 && echo.
 curl https://aka.ms/vs/17/release/vc_redist.x86.exe -JLO && vc_redist.x86.exe -q -norestart && del vc_redist.x86.exe
 
-cls && echo. && A instalar a framework .NET da Microsoft
+cls && echo. && echo A tranferir e instalar a framework .NET da Microsoft && echo.
 curl https://go.microsoft.com/fwlink/?LinkId=2085155 -JLo ndp48-web.exe && ndp48-web.exe -q -norestart && del ndp48-web.exe
 
 cls && echo. && echo A criar pasta p16as
